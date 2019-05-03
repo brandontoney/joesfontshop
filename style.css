@@ -1,0 +1,130 @@
+body {
+	overflow-x: hidden;
+    background-color: white;
+}
+
+#navbar {
+	height: 100;
+}
+
+#header {
+    background-image: url(images/header.png);
+	height: 300;
+    margin-left: 240;
+    margin-right: 240;
+}
+
+#why {
+	height: 250;
+    	color: gray;
+}
+
+#info {
+	height: 300;
+}
+
+#getStarted {
+	height: 200;
+}
+
+#footer {
+	height: 180;
+	text-align: center;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	text-align: center;
+	padding: 14px 50px;
+	text-decoration: none;
+	color: #a5a5a5;
+}
+
+li a:hover {
+    color: #77cb5f;
+    text-decoration: none;
+}
+
+#links {
+	float: right;
+    margin-top: -50;
+}
+
+#navgroup {
+	margin-right: 300;
+}
+
+h3 {
+	text-align: center;
+	padding-top: 70;
+}
+
+#description {
+    text-align: center;
+    margin-top: 40;
+    color: #a5a5a5;
+}
+
+.grid {
+	margin-left: 100;
+	margin-right: 300;
+}
+
+.col-sm {
+	margin-top: 40;
+	text-align: center;
+    margin-left: 200;
+}
+
+#sloganDescription {    
+    font-size: 16;
+    font-size: 21;
+    color: #77cb5f;
+}
+
+#loremIpsum {
+	color: #a5a5a5;
+}
+
+#button {
+    font-size: 20;
+    background-color: #77cb5f;
+    color: white;
+    border: none;
+    padding: 15 40;
+    margin-top: 50;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+#social {
+	display: inline-block;
+	margin-top: 40;
+}
+
+#footer_links {
+	display: inline-block;
+    color: #a5a5a5;
+	font-size: 12;
+    margin-top: 20;
+}
+
+#footer-note {
+	margin-top: 30;
+	color: white;
+}
